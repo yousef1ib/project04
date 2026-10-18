@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Yousef.Dev</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="themeToggleBtn">Toggle Theme</button>
+    </header>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <img src="assets/profile.jpeg" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <h1>Hello, I'm Yousef</h1>
+                <p>A passionate web development student at 42 School, building authentic digital experiences from scratch using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5 & Semantic Web</div>
+            <div class="skill-card">CSS3, Flexbox & Positioning</div>
+            <div class="skill-card">JavaScript ES6+ & DOM</div>
+            <div class="skill-card">Git & GitHub Workflow</div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2>Project Showcase</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 00: Flexbox Layout</h3>
+                <p>Responsive navigation bar and card grid using pure CSS Flexbox.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 01: Positioning & Badges</h3>
+                <p>Mastering fixed navbars, relative containers, and absolute badges.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 02: CSS Shapes</h3>
+                <p>Drawing geometry, circles, pills, and triangles with pure CSS borders.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 03: Task Manager App</h3>
+                <p>Interactive DOM manipulation app with dynamic creation and event listeners.</p>
+            </div>
+        </div>
+    </section>
+    <section class="hobbies-section">
+        <h2>Hobbies & Interests</h2>
+        <p>Coding open-source challenges, solving algorithmic puzzles, and exploring Linux Ubuntu environments.</p>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Yousef. Built with pure code at 42 School.</p>
+    </footer>
+
+</body>
+</html>
